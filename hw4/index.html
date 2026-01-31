@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HW4</title>
+</head>
+<body>
+    <form>
+    <fieldset class="form">
+        <h2>Ваши личные данные</h2>
+        
+        <div class="form-group">
+            <label class="form-label">Ваше имя</label>
+            <input type="text" placeholder="Name" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Ваш возраст</label>
+            <input type="number" inputmode="numeric" placeholder="Возраст" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Ваш номер телефона</label>
+            <input type="tel" inputmode="tel" placeholder="Номер телефона" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="form-label">Ваша почта</label>
+            <input type="email" inputmode="email" placeholder="Почта" required>
+        </div>
+        
+        <div style="margin-bottom: 1px;" class="form-group">
+            <label class="form-label">Сообщение</label>
+            <textarea class="textarea" required></textarea>
+        </div>
+        
+        <div class="checkbox-group">
+            <input type="checkbox" name="checkbox" id="rules">
+            <label class="message" for="rules">Я принимаю правила</label>
+        </div>
+        
+        <button type="submit">Отправить</button>
+    </fieldset>
+</form>
+</body>
+</html>
