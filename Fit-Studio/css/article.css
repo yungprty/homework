@@ -1,26 +1,3 @@
-html {
-	font-family: Ubuntu, sans-serif;
-}
-
-body * {
-	box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	margin: 0;
-}
-.container {
-	max-width: 1250px;
-	margin: 0 auto;
-	padding: 0 15px;
-}
-
 .article {
 	padding-top: 80px;
 	padding-bottom: 120px;
@@ -46,10 +23,15 @@ p {
 }
 
 .article-text {
+	margin-bottom: 20px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 130%;
 	color: #535755;
+	margin-bottom: 20px;
+}
+
+.article-text:last-child {
 	margin-bottom: 20px;
 }
 
@@ -89,10 +71,11 @@ p {
 	width: 179px;
 	height: 153px;
 	padding-left: 12px;
+	margin-left: 8px;
 	margin-top: 0;
 }
 
-.article-item {
+.article-item:not(:last-child) {
 	margin-bottom: 12px;
 }
 
