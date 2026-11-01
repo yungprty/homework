@@ -105,3 +105,11 @@
 	border-radius: 50%;
 	cursor: pointer;
 }
+
+.article-play-button:hover {
+	background-color: #5baaef;
+}
+
+.article-play-button:active {
+	background-color: #22649e;
+}
