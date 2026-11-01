@@ -135,7 +135,7 @@
 	position: absolute;
 	top: 215px;
 	z-index: -1;
-	width: calc(50%-250px);
+	width: calc(50% - 250px);
 	height: 48px;
 	background: url("../images/decor-large-icon.svg") repeat-x;
 }
